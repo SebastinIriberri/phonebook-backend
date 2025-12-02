@@ -1,0 +1,28 @@
+# === Node / Express backend ===
+
+# Dependencias
+node_modules/
+
+# Archivos de build o cobertura (si luego usas tests)
+coverage/
+dist/
+build/
+
+# Archivos de entorno (por si más adelante usas variables secretas)
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# VS Code / editor
+.vscode/
+.idea/
